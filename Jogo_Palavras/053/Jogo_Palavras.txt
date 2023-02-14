@@ -1,0 +1,409 @@
+main():
+   
+    dicionário = GeraDicionário() 
+
+--------------------------------------------------------------------------
+1ª função
+
+def GeraDicionário():
+    """
+    Carrega o arquivo com a lista de palavras e com isso
+    gera um dicionário, que é uma lista contendo todas as
+    palavras, e a devolve
+    """
+    arquivo = open('PALAVRAS.txt', 'r')
+    arquivo = open('PALAVRAS.txt', 'r')
+
+    dicionário = []
+
+    print('Carregando Palavras para o Dicionário')
+
+BOXEADOR BRANCO DESPREPARADO
+    
+    for palavra in arquivo:
+    for A in arquivo:
+
+        separado = palavra.split('\n')
+	separado = A
+ 
+	print(separado[0])
+	
+	A
+
+	dicionário.append(separado[0])
+	dicionário = ['A']
+		   
+    for A-BE-CE in arquivo:
+
+        separado = palavra.split('\n')
+	separado = A-BE-CE
+ 
+ 	print(separado[0])
+	
+	A-BE-CE
+
+        dicionário.append(separado[0])
+	dicionário = ['A', 'A-BE-CE']
+
+		.
+		.
+		.
+
+		.
+		.
+	for ZURETA in arquivo:
+
+        separado = palavra.split('\n')
+	separado = ZURRAR
+ 
+ 	print(separado[0])
+	
+	ZURRAR
+
+        dicionário.append(separado[0])
+	dicionário = ['A', 'A-BE-CE'.......,'ZURRAR']
+
+    #dicionário.sort()
+
+    return dicionário
+---------------------------------------------------------------------------
+main()
+dicionário = ['A', 'A-BE-CE'.......,'ZURRAR']
+frase = RecebeFrase().split()
+
+----------------------------------------------------------------------------
+2ª função
+
+def RecebeFrase():
+    """
+    Das letras que recebemos temos que garantir nenhuma tenha
+    acento ou ç
+    """
+    while True:
+        frase = input("Digite a frase usando * para os caracteres desconhecidos\n")
+        frase = BOXEADOR BRANCO DESPREPARADO
+
+	ok = True
+        for letra in frase:
+	for 'B' in BOXEADOR BRANCO DESPREPARADÇ:
+
+            if not 'a' <= letra <= 'z' and not 'A' <= letra <= 'Z' and letra != '*' and letra != ' ':
+            if not 'a' <= 'B' <= 'z'(True) and not 'A' <= 'B' <= 'Z' (False) and 'B' != '*'(True) and 'B' != ' ' (True):
+
+	for 'O' in BOXEADOR BRANCO DESPREPARADO:
+
+            if not 'a' <= letra <= 'z' and not 'A' <= letra <= 'Z' and letra != '*' and letra != ' ':
+            if not 'a' <= 'O' <= 'z'(True) and not 'A' <= 'O' <= 'Z' (False) and 'O' != '*'(True) and 'O' != ' ' (True):
+
+							.
+							.
+							.
+							.
+	 for ' ' in BOXEADOR BRANCO DESPREPARADO:
+
+            if not 'a' <= letra <= 'z' and not 'A' <= letra <= 'Z' and letra != '*' and letra != ' ':
+            if not 'a' <= ' ' <= 'z'(True) and not 'A' <= ' ' <= 'Z' (True) and ' ' != '*'(True) and ' ' != ' ' (False):                   
+     
+                ok = False
+                break
+
+							.
+							.
+							.
+							.
+	 for 'Ç' in BOXEADOR BRANCO DESPREPARADO:
+
+            if not 'a' <= letra <= 'z' and not 'A' <= letra <= 'Z' and letra != '*' and letra != ' ':
+            if not 'a' <= 'Ç' <= 'z'(True) and not 'A' <= 'Ç' <= 'Z' (True) and 'Ç' != '*'(True) and 'Ç' != ' ' (True):
+                   
+     
+                ok = False
+                break
+
+
+        if ok:
+            return frase
+
+	BOXEADOR BRANCO DESPREPARADO
+
+        else:
+            print("Digite apenas letras sem acento e nenhum ç!")
+
+-----------------------------------------------------------------------------
+main()
+dicionário = ['A', 'A-BE-CE'.......,'ZURRAR']
+
+frase = BOXEADOR BRANCO DESPREPARADO
+frase = ['BOXEADOR', 'BRANCO', 'DESPREPARADO']
+
+candidatas_totais = []
+
+for palavra in frase:
+for 'BOXEADOR' in ['BOXEADOR', 'BRANCO', 'DESPREPARADO']:
+
+        candidatas_totais.append(ProcuraPalavra(dicionário, palavra))
+
+
+-----------------------------------------------------------------------------
+3ª função 
+
+def ProcuraPalavra(dicionário, palavra):
+def ProcuraPalavra(['A', 'A-BE-CE'.......,'ZURRAR'], 'BOXEADOR'):
+    """
+    Procura as possíveis palavras para substituir
+    a palavra passada, e as devolve numa lista
+    """
+    #Antes de mais nada tornamos a palavra maiuscula
+    #para realizar as comparações
+    palavra = palavra.upper()
+    palavra = 'BOXEADOR'
+    
+    #Primeiro olhamos para o caso de haver uma
+    #primeira letra selecionada, o que facilitaria
+    #a nossa busca
+    if palavra[0] != '*':
+    if 'B' != '*'(True):
+
+        #Primeiro nós encontramos o ponto do dionário
+        #onde começa nossa letra
+        for i in range(len(dicionário)):
+	for i=0 in range(['A', 'A-BE-CE'.......,'ZURRAR']):
+	for 0 até 29858:
+
+            if i % 100 == 0:
+                print('Procurando Letra no dicionário...')
+	    if 0 % 100 == 0(True):
+                print('Procurando Letra no dicionário...')
+
+	    if 1 % 100 == 0(False):
+                print('Procurando Letra no dicionário...')
+	    if dicionário[1][0] == palavra[0]:
+	    if  'A-BE-CE' == 'B'(False):
+                break
+
+				.
+				.
+				.
+				.
+Digamos que a letra B se encontra na posição 1040
+
+	    if 1040 % 100 == 0:
+	    if 40 == 0 (false)
+                print('Procurando Letra no dicionário...')
+	    if dicionário[1040][0] == palavra[0]:
+	    if 'B' == 'B'(True):
+                break
+
+--------------------------------------------------------------------------
+linha 63:
+
+for j in range(i, len(dicionário)):
+for 1040 in range(1040, 29858):
+
+            if j % 100 == 0:
+	    if 1040 % 100 == 0(False):
+                print('Procurando Letra no dicionário...')
+
+            if dicionário[j][0] != palavra[0]:
+	    if dicionário[1040][0] != palavra[0]:
+	    if 'B' != 'B'(False):
+                break
+        
+        return SeparaPorTamanho(dicionário[i:j], palavra)
+
+Explicação: a palavra escolhida foi BOXEADOR, então dicionário[i:j] serve
+para delimitar de 'B' até a última palavra que inicializa com a listra 'B', que é 
+'BUZIOS'
+
+	return SeparaPorTamanho(dicionário[i:j], palavra)
+
+---------------------------------------------------------------------------
+4ª função
+
+def SeparaPorTamanho(dicionário, palavra):
+def SeparaPorTamanho(['A', 'A-BE-CE'.......,'ZURRAR'], 'BOXEADOR'):
+    """
+    Separa as possíveis candidatas a palavras substitutas
+    por tamanho
+    """
+    tamanho = len(palavra)
+    tamanho = 8
+
+    candidatos = []
+
+    print(palavra)
+
+    for word in dicionário:
+    for word in ['BACALHAU','BACHAREL', 'BACTERIA,.......'BURLESCO,'BUSCA-PE', BUZIOS']:
+
+        #Primeiro verificamos os tamanhos
+        if len(palavra) == len(word):
+	if 8 == 1(False):
+		.
+		.
+		.
+		.
+	if 8 == 8(True):
+            print('Encontrando palavra Candidata...')
+            #Depois nós verificamos os caractéres
+            eh_candidata = True
+            for i in range(len(palavra)):
+	    for i=0 até 7:
+
+Digamos que a palavra foi escrita assim: B*X**DO*
+
+
+                
+                if palavra[i] != '*' and palavra[i] != word[i]:
+	 	if palavra[0] != '*' and palavra[0] != word[0]:
+		if  'B' != '*' and  'B' != 'B'(False):
+-----------------------------------------------------------------------------------------
+Observe que o word fica fixo por conta da linha 85 e palvra é que vai alterando valor.
+Exemplo:
+		i=0
+ 		 ---> palavra = B
+		Word = BACALHAU     -->word[0] = B
+
+		i=1
+		---> palavra = *
+		Word = BACALHAU   ---> word[1] = A
+
+		i=2
+		---> palavra = X
+		Word = BACALHAU   ---> word[0] = C
+
+------------------------------------------------------------------------------------
+                    eh_candidata = False
+                    break
+	    for i=1 até 7:
+                
+                if palavra[i] != '*' and palavra[i] != word[i]:
+	 	if palavra[1] != '*' and palavra[1] != word[1]:
+		if * != '*' and * != A:
+
+				.
+				.
+				.
+				.
+	     for i=7 até 7:
+                
+                if palavra[i] != '*' and palavra[i] != word[i]:
+	 	if palavra[7] != '*' and palavra[7] != word[7]:
+		if * != '*' and * != 'U':
+
+-------------------------------------------------------------------------------------------
+Exemplo raciocínio:
+
+dicionário = ['BACALHAU','BACHAREL', 'BACTERIA,.......'BURLESCO,'BUSCA-PE', BUZIOS']
+
+for word in ['BACALHAU','BACHAREL', 'BACTERIA,.......'BURLESCO,'BUSCA-PE', BUZIOS']:
+for 'BACTERIA' in ['BACALHAU','BACHAREL', 'BACTERIA,.......'BURLESCO,'BUSCA-PE', BUZIOS']:
+
+--------------------------------------------------------------------------------------------
+Linha 98:
+
+if eh_candidata:
+                print('Adcionando palavra candidata...')
+                candidatos.append(word)
+
+		candidatos = ['BACALHAU']
+
+Volta para linha 85:
+for 'BACHAREL' in ['BACALHAU','BACHAREL', 'BACTERIA,.......'BURLESCO,'BUSCA-PE', BUZIOS']:
+
+ ---> palavra = B
+		i=0
+		Word = 'BACHAREL'     -->word[0] = B
+
+		i=1
+		---> palavra = *
+		Word ='BACHAREL'  ---> word[1] = A
+
+		i=2
+		---> palavra = X
+		Word = 'BACHAREL'   ---> word[0] = C
+
+mesmo raciocínio para todo dicionário
+
+
+até que se chegue a palavras que fixam as palvras já determinadas e alternem as que estão com
+asterisco. 
+Exemplo: bac*****
+
+	candidatos = ['BACALHAU','BACHAREL', 'BACTERIA]
+
+-------------------------------------------------------------------------------------------------
+linha 72:
+
+return SeparaPorTamanho(dicionário, palavra)
+return SeparaPorTamanho( ['BACALHAU','BACHAREL', 'BACTERIA,.......'BURLESCO,'BUSCA-PE', BUZIOS'], 'BOXEADOR')
+
+
+--------------------------------------------------------------------------------------------------------------
+linha 150:
+
+for palavra in frase:
+for 'BRANCO' in 'BOXEADOR BRANCO DESPREPARADO':
+        candidatas_totais.append(ProcuraPalavra(dicionário, palavra))
+	candidatas_totais.append(ProcuraPalavra(['BACALHAU','BACHAREL', 'BACTERIA,.......'BURLESCO,'BUSCA-PE', BUZIOS'], 'BOXEADOR'), 'BRANCO'))
+
+3ª função 
+
+def ProcuraPalavra(dicionário, palavra) vai pegar a primeira palavra e o range vai ser de acordo com essa letra
+
+--------------------------------------------------------------------------------------------------------------------
+linha 152:
+
+del dicionário, frase
+del ['BACALHAU','BACHAREL', 'BACTERIA,.......'BURLESCO,'BUSCA-PE', BUZIOS'], 'BOXEADOR'), 'BRANCO'))
+
+Ou seja, vai deletar a palavra dentro do dicionário
+
+-----------------------------------------------------------------------------------------------------------------
+5ª função:
+
+def GeraFrasesPossíveis(candidatas_totais):
+    """
+    A partir da matriz com todas as palavras candidatas
+    essa função vai gerar todas as possíveis frases
+    """
+
+    aux = open('auxiliar.py', 'w')
+    aux.write('def funcao_auxiliar(candidatas_totais):\n')
+    aux.write('\tarquivo = open("FRASE.txt", "w")\n')
+
+    aux.write('\tfrase = []\n')
+    aux.write('\tfor i in range(len(candidatas_totais)):\n')
+    aux.write('\t\tfrase.append("")\n')
+
+    for i in range(len(candidatas_totais)):
+        linha = '\t'*(i+1)
+        linha += 'for a%i in range(len(candidatas_totais[%i])):\n'%(i,i)
+        aux.write(linha)
+        linha = '\t'*(i+2) + 'frase[%i]= candidatas_totais[%i][a%i]\n'%(i,i,i)
+        aux.write(linha)
+
+    aux.write('\t'*(i+2) + 'frase_s = ""\n')
+    aux.write('\t'*(i+2) + 'for palavra in frase:\n')
+    aux.write('\t'*(i+3)+ 'frase_s += palavra\n')
+    aux.write('\t'*(i+3)+ 'frase_s += " "\n')
+    aux.write('\t'*(i+2) + 'arquivo.write(frase_s + "\\n")\n')
+
+    aux.write('\tarquivo.close()')
+
+    aux.close()
+
+    print("Gerando Lista de Palavras Candidatas...")
+    
+    from auxiliar import funcao_auxiliar
+
+    funcao_auxiliar(candidatas_totais)     
+
+
+
+
+
+
+
+
+
